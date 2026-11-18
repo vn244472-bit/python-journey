@@ -22,3 +22,10 @@ Mục tiêu: Sử dụng input() để nhận dữ liệu từ người dùng
 # TODO 4 (Thử thách): Tạo Mad Libs mini
 # Hỏi người dùng nhập: tên, tính từ, con vật, số
 # Rồi in ra câu chuyện vui
+
+# Mini-project: Khung ASCII
+
+print("+--------------+")
+print("| Xin chao ban! |")
+print("+--------------+")
+python weeks/week-01-hello-python/mini-project/starter_basic.py
