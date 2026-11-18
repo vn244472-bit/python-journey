@@ -41,5 +41,32 @@ Chạy file này bằng: python ex01_hello.py
 # H   H  III
 # Viết code ở đây:
 
+# Bai tap 01: Hello Python
+
+# TODO 1: In Hello World
+print("Hello, World!")
+
+# TODO 2: In ten cua ban
+print("Tên của tôi là: [Nhập tên của bạn]")
+
+# TODO 3: In 3 dieu ban thich
+print("Tôi thích ăn phở")
+print("Tôi thích nghe nhạc")
+print("Tôi thích học Python")
+
+# TODO 4: In hinh chu nhat 5 x 4
+print("*****")
+print("*   *")
+print("*   *")
+print("*****")
+
+# TODO 5: Thu thach - ten bang ky tu
+print("H   H")
+print("H   H")
+print("HHHHH")
+print("H   H")
+print("H   H")
+
 
 # Starter chưa hoàn thành: chỉ có output khi sinh viên tự viết các TODO.
+python weeks/week-01-hello-python/exercises/ex01_hello.py
