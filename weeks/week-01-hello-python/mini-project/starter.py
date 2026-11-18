@@ -22,3 +22,15 @@ ten = input("Nhập tên của bạn: ")
 # TODO: In dòng dưới bằng ╚═══╝
 
 # Gợi ý: Dùng str.center(width) để căn giữa
+# Bước 2: Tính độ rộng khung
+width = len(ten) + 4
+
+# Bước 3: In khung trên
+print("╔" + "═" * width + "╗")
+
+# Bước 4: In nội dung, căn giữa
+print("║" + ten.center(width) + "║")
+
+# Bước 5: In khung dưới
+print("╚" + "═" * width + "╝")
+"python weeks/week-01-hello-python/mini-project/starter.py"
