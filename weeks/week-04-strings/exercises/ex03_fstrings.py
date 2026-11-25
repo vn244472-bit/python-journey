@@ -37,3 +37,50 @@ diem = 8.567
 # TODO 4 (Thử thách): Tạo progress bar bằng f-string
 # Nhập phần trăm (0-100)
 # In ra: [████████░░░░░░░░░░░░] 40%
+
+# TODO 1
+ten = "An"
+tuoi = 20
+diem = 8.567
+
+print(f"Hoc sinh {ten}, {tuoi} tuoi, diem TB: {diem:.2f}")
+
+
+# TODO 2
+for i in range(1, 11):
+    print(f"5 x {i:>2} = {5 * i:>3}")
+
+
+# TODO 3
+print("=" * 35)
+print(f"{'SAN PHAM':<20}{'GIA (VND)':>15}")
+print("-" * 35)
+
+san_pham = [
+    ("Ca phe", 35000),
+    ("Banh mi", 25000),
+    ("Nuoc suoi", 10000)
+]
+
+tong = 0
+
+for ten, gia in san_pham:
+    print(f"{ten:<20}{gia:>15,}")
+    tong += gia
+
+print("-" * 35)
+print(f"{'TONG CONG':<20}{tong:>15,}")
+print("=" * 35)
+
+
+# TODO 4
+phan_tram = int(input("Nhap phan tram (0-100): "))
+
+if 0 <= phan_tram <= 100:
+    so_o_day = phan_tram // 5
+    thanh = "█" * so_o_day
+    trong = "░" * (20 - so_o_day)
+
+    print(f"[{thanh}{trong}] {phan_tram}%")
+else:
+    print("Phan tram khong hop le")
