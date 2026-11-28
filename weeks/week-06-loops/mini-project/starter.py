@@ -10,3 +10,17 @@ for position, (topic, score) in enumerate(
 
 strong_scores = [score for score in scores if score >= 8]
 print(f"strong_scores={strong_scores}")
+# Tinh diem trung binh
+average = sum(scores) / len(scores)
+
+# Tim diem cao nhat
+highest_score = max(scores)
+
+# Dem so chu de dat tu 8 diem
+strong_count = len(strong_scores)
+
+print("--------------------")
+print(f"Strong scores: {strong_scores}")
+print(f"Average score: {average}")
+print(f"Highest score: {highest_score}")
+print(f"Strong topics: {strong_count}")
